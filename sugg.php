@@ -30,11 +30,11 @@ include("includes/header.php");
 			$msg	= $_POST['message']; // no need to trim message
 		
 			// Check to see if $name or $email have header injections
-			/*if (has_header_injection($name) || has_header_injection($email)) {
+			if (has_header_injection($name) || has_header_injection($email)) {
 				
 				die(); // If true, kill the script
 				
-			}*/
+			}
 			
 			if (!$name || !$email || !$msg || !$phone) {
 				echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
@@ -42,7 +42,7 @@ include("includes/header.php");
 			}
 			
 			// Add the recipient email to a variable
-			$to	= "jainabhishek7204@gmail.com";
+			$to	= "jainabhishek7204@yahoo.com";
 			
 			// Create a subject
 			$subject = "$name sent a message via your contact form";
@@ -54,12 +54,12 @@ include("includes/header.php");
 			$message .= "Message:\r\n$msg";
 			
 			// If the subscribe checkbox was checked
-			/*if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
+			if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
 			
 				// Add a new line to the $message
 				$message .= "\r\n\r\nPlease add $email to the mailing list.\r\n";
 				
-			}*/
+			}
 		
 			//$message = wordwrap($message, 72); // Keep the message neat n' tidy
 		
@@ -72,7 +72,13 @@ include("includes/header.php");
 		
 			
 			// Send the email!
-			mail($to, $subject, $message, $headers);
+
+			if(mail($to, $subject, $message, $headers)){
+				echo "<h1>Sent</h1>";
+			}
+			else{
+				echo "<h1>Not Sent</h1>";
+			}
     ?>
 		<h5>Thanks for contacting Us!</h5>
 		<p>Please allow 24 hours for a response.</p>

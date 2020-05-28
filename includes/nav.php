@@ -8,7 +8,7 @@
                             <a class="dropdown-item" role="presentation" href="category.php?name=Desserts">Desserts</a>
                         </div>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="sugg.html">Suggestions</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="sugg.php">Suggestions</a></li>
                 </ul>
             </div>
         </div>

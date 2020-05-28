@@ -4,7 +4,7 @@
             <ul class="list-inline">
                 <li class="list-inline-item"></li>
                 <li class="list-inline-item"><a href="\">Home</a></li>
-                <li class="list-inline-item"><a href="sugg.html">Contact</a></li>
+                <li class="list-inline-item"><a href="sugg.php">Contact</a></li>
                 <li class="list-inline-item"></li>
                 <li class="list-inline-item"></li>
             </ul>
