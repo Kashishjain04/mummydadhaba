@@ -15,26 +15,26 @@ include("includes/header.php");
 </head>
 <?php
 // Check for Header Injections
-		function has_header_injection($str) {
+		/*function has_header_injection($str) {
 			return preg_match( "/[\r\n]/", $str );
-		}
+		}*/
 		
 		
 		if (isset($_POST['contact_submit'])) {
 			
 			// Assign trimmed form data to variables
 			// Note that the value within the $_POST array is looking for the HTML "name" attribute, i.e. name="email"
-			$name	= trim($_POST['name']);
+			$name	= ($_POST['name']);
             $email	= trim($_POST['email']);
             $phone  = trim($_POST['phone']);
 			$msg	= $_POST['message']; // no need to trim message
 		
 			// Check to see if $name or $email have header injections
-			if (has_header_injection($name) || has_header_injection($email)) {
+			/*if (has_header_injection($name) || has_header_injection($email)) {
 				
 				die(); // If true, kill the script
 				
-			}
+			}*/
 			
 			if (!$name || !$email || !$msg || !$phone) {
 				echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
@@ -61,7 +61,7 @@ include("includes/header.php");
 				
 			}*/
 		
-			$message = wordwrap($message, 72); // Keep the message neat n' tidy
+			//$message = wordwrap($message, 72); // Keep the message neat n' tidy
 		
 			// Set the mail headers into a variable
 			$headers = "MIME-Version: 1.0\r\n";
@@ -112,7 +112,7 @@ include("includes/header.php");
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button name="contact_submit" class="contact100-form-btn">
+					<button name='contact_submit' class="contact100-form-btn">
 						<span>
 							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
 							Send
