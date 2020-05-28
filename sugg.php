@@ -74,7 +74,7 @@ include("includes/header.php");
 			// Send the email!
 
 			if(mail($to, $subject, $message, $headers)){								
-			header("Location:thanks.php");
+			header("Location:/thanks.php");
 			}
 
 		} else { 
