@@ -1,0 +1,402 @@
+<?php
+    $icon = "//media.getsitecontrol.com/prod2/images/3130/a582af5305e3fe719d93fe8c10ad1210_157640964.svg";
+    $title = "Thank You!";
+    include("includes/header.php");
+?>
+    </head>
+    <body>
+        <div id="root">
+    <style>/* stylelint-disable */@font-face{font-family:emoji;src:local('Apple Color Emoji'),local('Android Emoji'),local('Segoe UI'),local(EmojiSymbols),local(Symbola);
+            /* Emoji unicode blocks */unicode-range:U+1F300-1F5FF,U+1F600-1F64F,U+1F680-1F6FF,U+2600-26FF}@media print{#root{display:none!important}}#root{all:initial;contain:style size;direction:ltr;margin:0;padding:0;border:0;box-sizing:border-box;box-shadow:none;background-clip:padding-box;line-height:1.2;vertical-align:middle;text-align:left;font-weight:normal;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-style:normal;letter-spacing:normal;text-shadow:none;text-transform:none;float:none;z-index:2147483635;-webkit-font-smoothing:subpixel-antialiased;-webkit-tap-highlight-color:rgba(0,0,0,0);filter:none}#root *,
+          #root *:before,
+          #root *:after{box-sizing:inherit}#root span,
+          #root a,
+          #root form,
+          #root label,
+          #root div,
+          #root u,
+          #root i,
+          #root em,
+          #root b,
+          #root strong,
+          #root p,
+          #root h1,
+          #root ul,
+          #root ol,
+          #root li,
+          #root img{margin:0;padding:0;border:0;border-radius:0;vertical-align:baseline;
+            /*text-align: left;*/width:auto;height:auto;min-width:auto;min-height:auto;max-width:none;max-height:none;text-shadow:none;box-shadow:none;font-family:inherit;line-height:inherit;letter-spacing:normal;color:inherit;background-color:transparent;position:static;font-size:inherit;font-weight:inherit;font-style:inherit;text-transform:inherit;text-decoration:inherit;text-align:inherit;float:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}#root a,
+          #root a:focus,
+          #root a:active{-webkit-tap-highlight-color:rgba(0,0,0,0);text-decoration:none}#root img{display:block}#root .html{vertical-align:baseline;line-height:1.35}#root .html b,
+          #root .html strong{font-weight:bold}#root .html i,
+          #root .html em{font-style:italic}#root .html u{text-decoration:underline}#root .html p{margin:0 0 8px 0}#root .html a{text-decoration:underline}#root .html.html-inline{display:inline;white-space:nowrap;margin:0;padding:0}#root .html.html-inline *{white-space:nowrap;display:inline;margin:0;padding:0}#root ::-webkit-input-placeholder{color:inherit;text-overflow:ellipsis;opacity:1;overflow:hidden;white-space:nowrap;vertical-align:middle;font-size:inherit;text-align:inherit;font-weight:normal;position:static}#root :-moz-placeholder,
+          #root ::-moz-placeholder{color:inherit;text-overflow:ellipsis;opacity:1;overflow:hidden;white-space:nowrap;vertical-align:middle;font-size:inherit;text-align:inherit;font-weight:normal;position:static}#root input:-ms-input-placeholder{color:inherit;text-overflow:ellipsis;opacity:1;overflow:hidden;white-space:nowrap;vertical-align:middle;font-size:inherit;text-align:inherit;font-weight:normal;position:static}#root [placeholder]{text-overflow:ellipsis}#root input::-moz-placeholder,
+          #root input:-moz-placeholder,
+          #root input:-ms-input-placeholder{text-overflow:ellipsis}#root input,
+          #root button{-webkit-appearance:none;-moz-appearance:none;appearance:none}#root input,
+          #root input:focus,
+          #root textarea,
+          #root textarea:focus,
+          #root select,
+          #root select:focus{margin:0;padding:0;border:0;text-align:left;border-radius:0;background:none;vertical-align:middle;width:auto;height:auto;min-width:0;min-height:0;max-width:none;max-height:none;text-shadow:none;box-shadow:none;font-family:inherit;background-clip:padding-box;line-height:1;letter-spacing:normal;outline:0 none;font-size:inherit;float:none}#root a,
+          #root a *,
+          #root input[type='submit'],
+          #root input[type='button'],
+          #root input[type='radio'],
+          #root input[type='checkbox'],
+          #root select,
+          #root button{cursor:pointer}#root button,
+          #root input[type='submit']{margin:0;padding:0;border:0;background:none;width:auto;height:auto;text-shadow:none;box-shadow:none;font-family:inherit;font-size:inherit;line-height:1;letter-spacing:normal;float:none;font-weight:bold;outline:initial}#root svg{cursor:inherit;color:currentColor;fill:none;stroke:currentcolor}#root textarea{line-height:1.2;overflow:auto;resize:none}#root input:-webkit-autofill,
+          #root textarea:-webkit-autofill,
+          #root select:-webkit-autofill{background-color:transparent;-webkit-box-shadow:0 0 0 1000px white inset}#root *{filter:none}#root label,
+          #root button,
+          #root button:focus,
+          #root button:active,
+          #root button:hover,
+          #root span,
+          #root div,
+          #root input,
+          #root textarea,
+          #root a,
+          #root input:focus,
+          #root input:active,
+          #root textarea:focus,
+          #root textarea:active,
+          #root a:focus,
+          #root a:hover,
+          #root a:active{color:inherit}#root b{font-weight:bold}#root u{text-decoration:underline}#root i{font-style:italic}/* stylelint-disable */#root *[data-widget-preview]{outline:2px dashed #4084d3!important;outline-offset:-2px!important}</style><div><style>:root{-webkit-text-size-adjust:100%}#root #wpreview{-webkit-text-size-adjust:100%;z-index:2147483635;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px}:root,
+          :root body{overflow:hidden}#root #wpreview{contain:content;z-index:2147483636;position:fixed;top:0;right:0;bottom:0;left:0;outline:0;line-height:1.25;-webkit-overflow-scrolling:touch;background:rgba(255,255,255,0.7);display:flex;overflow-x:hidden;overflow-y:scroll;padding:32px 0;align-items:center}#root #wpreview .container{margin:auto;background-clip:padding-box;overflow:visible;position:relative;border-radius:8px;background-color:rgba(255,255,255,1);color:rgba(38,44,49,1);padding-top:278px;padding-right:40px;padding-bottom:40px;padding-left:40px;background-image:none;background-repeat:no-repeat;background-size:initial;background-position:initial;width:800px;max-width:none;min-height:0}#root #wpreview .container:focus{outline:none}@media screen and (min-width: 960px){#root #wpreview .container{width:800px;max-width:none;padding-top:278px;padding-right:40px;padding-bottom:40px;padding-left:40px}}#root #wpreview .back,
+          #root #wpreview .close,
+          #root #wpreview .caret{padding:20px;position:absolute;z-index:1}#root #wpreview .back{padding-right:10px;top:0;right:41px}#root #wpreview .close{top:0;right:0}#root #wpreview .back +  .close{padding-left:10px}
+          #root #wpreview{scrollbar-width:none;
+            -ms-overflow-style:none
+            }#root #wpreview::-webkit-scrollbar{
+            width:0;height:0}
+          #root #wpreview .content{position:relative;display:flex;flex-direction:column}#root #wpreview .title,
+          #root #wpreview .description{margin-bottom:20px}#root #wpreview .note{margin-top:20px}
+          #root #wpreview .title{white-space:normal;overflow-wrap:break-word;word-wrap:break-word;word-break:normal;color:rgba(38,44,49,1);font-weight:bold;cursor:inherit}
+          #root #wpreview .title{font-size:20px;line-height:1.4}@media screen and (min-width: 960px){#root #wpreview .title{font-size:24px;line-height:1.3}}
+          #root #wpreview .title a{vertical-align:baseline;text-decoration:underline}#root #wpreview .description{white-space:normal;overflow-wrap:break-word;word-wrap:break-word;word-break:normal;line-height:1.5}#root #wpreview .description a{vertical-align:baseline;text-decoration:underline}#root #wpreview .form{display:flex;flex-direction:column;flex-wrap:nowrap}#root #wpreview .buttons{display:flex;flex-direction:row;
+            flex-wrap:wrap
+            }#root #wpreview .buttons .button.icon{flex-shrink:0;flex-grow:0}#root #wpreview .button.primary{color:rgba(255,255,255,1);background:rgba(67,122,220,1)}#root #wpreview .button.primary:hover,
+          #root #wpreview .button.primary:focus,
+          #root #wpreview .button.primary:active{background:rgba(88,137,224,1);color:rgba(255,255,255,1)}#root #wpreview .button{text-decoration:none;display:block;border:solid 1px transparent;outline:0;font-family:inherit;font-weight:bold;border-radius:4px;transition:background-color 0.2s ease-out;line-height:1.5;padding:11px 23px;word-wrap:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#root #wpreview .button > *{min-width:0}#root #wpreview .button::-moz-focus-inner{padding:0;border:0}#root #wpreview .button:hover,
+          #root #wpreview .button:focus,
+          #root #wpreview .button:active,
+          #root #wpreview .button:disabled{outline:0;text-decoration:none}#root #wpreview .back{color:inherit}#root #wpreview .back::before{display:block;content:''}#root #wpreview .back::before{width:16px;height:11px;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" fill="none" stroke="rgba(38,44,49,1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M1 5.5h15M5.5.55L.55 5.5l4.95 4.95"/></svg>');background-position:center;background-repeat:no-repeat;transform-origin:center center;transition:transform 300ms,opacity 200ms;opacity:0.5}#root #wpreview .back:hover::before{opacity:1;transform:translateX(-3px)}#root #wpreview .close{color:inherit}#root #wpreview .close::before{display:block;content:''}#root #wpreview .close::before{width:11px;height:11px;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(38,44,49,1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1.458 1.458l21.084 21.084m0-21.084L1.458 22.542" /></svg>');background-position:center;background-repeat:no-repeat;transform-origin:center center;transition:transform 300ms,opacity 200ms;opacity:0.5}#root #wpreview .close:hover::before{opacity:1;transform:rotate(90deg)}@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900&display=swap');
+          @keyframes wpreview-scale-in-center {
+              0% {
+              transform: scale(0.5);
+              opacity: 0;
+            }
+            100% {
+              transform: scale(1);
+              opacity: 1;
+            }
+          }
+          @keyframes wpreview-shake {
+              100% {
+              transform: none;
+            }
+            0%,
+            99% {
+              transform: translate(0, 0);
+            }
+            20% {
+              transform: translateX(-10px);
+            }
+            60% {
+              transform: translateX(-5px);
+            }
+            40% {
+              transform: translateX(10px);
+            }
+            80% {
+              transform: translateX(5px);
+            }
+          }
+          #root #wpreview {
+              top: 0 ;
+              right: 0 ;
+              bottom: 0 ;
+              left: 0 ;
+          
+          }
+          
+          #root #wpreview .container {
+              margin: auto ;
+          
+          }
+          
+          #root #wpreview .container {
+              font-family: Source Sans Pro, Helvetica, Arial, sans-serif ;
+              box-shadow: 0 11px 32px -5px rgba(54, 61, 77, 0.15) ;
+          
+          }
+          
+          @media (min-width: 960px) {
+              #root #wpreview .container {
+                  box-shadow: 0 10px 24px 0 rgba(54, 61, 77, 0.15) ;
+          
+              }
+          
+          }
+          #root #wpreview .title {
+              font-weight: 900 ;
+              font-size: 24px ;
+              line-height: 1.3333 ;
+              margin-bottom: 24px ;
+          
+          }
+          
+          @media (min-width: 960px) {
+              #root #wpreview .title {
+                  font-size: 28px ;
+              line-height: 1.2857 ;
+          
+              }
+          
+          }
+          #root #wpreview .description {
+              font-size: 16px ;
+              margin-bottom: 24px ;
+          
+          }
+          
+          #root #wpreview .no-fields .form {
+              margin-top: 8px ;
+          
+          }
+          
+          #root #wpreview .fields {
+              margin-bottom: 32px ;
+          
+          }
+          
+          #root #wpreview .field + .field {
+              margin: 24px 0 0 0 ;
+          
+          }
+          
+          #root #wpreview .field-title {
+              margin: 0 0 12px 0 ;
+          
+          }
+          
+          #root #wpreview .radio .field-title, #root #wpreview .checkbox .field-title {
+              margin: 0 0 16px 0 ;
+          
+          }
+          
+          #root #wpreview .buttons {
+              margin: -6px ;
+          
+          }
+          
+          #root #wpreview .buttons .button {
+              margin: 6px ;
+              border-radius: 6px ;
+          
+          }
+          
+          #root #wpreview .button.secondary, #root #wpreview .button.secondary.icon {
+              padding-left: 0 ;
+              padding-right: 0 ;
+              color: rgba(38, 44, 49, 0.3) ;
+              background-color: transparent ;
+              font-weight: normal ;
+          
+          }
+          
+          #root #wpreview .button.secondary:hover, #root #wpreview .button.secondary.icon:hover, #root #wpreview .button.secondary:focus, #root #wpreview .button.secondary.icon:focus {
+              color: rgba(38, 44, 49, 0.7) ;
+              background-color: transparent ;
+          
+          }
+          
+          #root #wpreview .input-text, #root #wpreview .input-textarea, #root #wpreview .input-select {
+              border: none ;
+              border-bottom: solid 1px rgba(38, 44, 49, 0.1) ;
+              border-radius: 0 ;
+              background-color: transparent ;
+          
+          }
+          
+          #root #wpreview .input-text::placeholder, #root #wpreview .input-textarea::placeholder, #root #wpreview .input-select::placeholder {
+              color: rgba(38, 44, 49, 0.3) ;
+          
+          }
+          
+          #root #wpreview .input-text {
+              padding: 0 0 11px 0 ;
+          
+          }
+          
+          #root #wpreview .input-textarea {
+              padding: 0 ;
+          
+          }
+          
+          #root #wpreview .input-select select {
+              padding: 0 24px 11px 0 ;
+          
+          }
+          
+          #root #wpreview .input-select:after {
+              top: 8px ;
+              transform: none ;
+              right: 0 ;
+          
+          }
+          
+          #root #wpreview .input-check label {
+              margin-bottom: 20px ;
+              border-radius: 4px ;
+          
+          }
+          
+          #root #wpreview .input-check label span {
+              padding-left: 36px ;
+          
+          }
+          
+          #root #wpreview .input-check label span:before {
+              width: 24px ;
+              height: 24px ;
+              top: 0 ;
+          
+          }
+          
+          #root #wpreview .input-check label input[type='radio'] + span:before, #root #wpreview .input-check label input[type='checkbox'] + span:before {
+              background-color: transparent ;
+              border: 1px solid rgba(38, 44, 49, 0.1) ;
+          
+          }
+          
+          #root #wpreview .input-check label input[type='radio'] + span:after, #root #wpreview .input-check label input[type='checkbox'] + span:after {
+              left: 4px ;
+          
+          }
+          
+          #root #wpreview .input-check label input[type='radio']:checked + span:after, #root #wpreview .input-check label input[type='checkbox']:checked + span:after {
+              left: 4px ;
+          
+          }
+          
+          #root #wpreview .input-rating label {
+              width: 40px ;
+              height: 32px ;
+          
+          }
+          
+          #root #wpreview .note {
+              margin: 32px 0 0 0 ;
+              color: rgba(38, 44, 49, 0.3) ;
+          
+          }
+          
+          #root #wpreview.enter .container {
+              animation: wpreview-scale-in-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both ;
+          
+          }
+          
+          #root #wpreview.leave .container {
+              animation: wpreview-scale-in-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both reverse ;
+          
+          }
+          
+          #root #wpreview .form.submit .invalid {
+              animation: wpreview-shake 600ms ;
+          
+          }
+          
+          #root #wpreview .title {
+              font-size: 28px ;
+              line-height: 36px ;
+              text-align: center ;
+          
+          }
+          
+          @media screen and (min-width: 960px) {
+              #root #wpreview .title {
+                  font-size: 32px ;
+              line-height: 40px ;
+          
+              }
+          
+          }
+          #root #wpreview .description {
+              text-align: center ;
+          
+          }
+          
+          #root #wpreview .rating .stars {
+              justify-content: center ;
+          
+          }
+          
+          #root #wpreview .rating .stars label {
+              height: 32px ;
+              width: auto ;
+              padding-right: 12px ;
+          
+          }
+          
+          #root #wpreview .rating .stars label:first-of-type {
+              padding-right: 0px ;
+          
+          }
+          
+          #root #wpreview .rating .stars label svg {
+              width: 32px ;
+          
+          }
+          
+          #root #wpreview .rating .stars:hover, #root #wpreview .rating .stars input:checked ~ label svg {
+              color: #FFC100 ;
+          
+          }
+          
+          #root #wpreview .field-title {
+              margin: 0 0 24px 0 ;
+              text-align: center ;
+          
+          }
+          
+          #root #wpreview .content .form {
+              margin-top: 0 ;
+          
+          }
+          
+          #root #wpreview .buttons {
+              justify-content: center ;
+          
+          }
+          
+          #root #wpreview .button.primary {
+              font-weight: 900 ;
+          
+          }
+    </style>
+          <div role="dialog" id="wpreview" class="page-2" style="">
+              <div class="container">
+                  <div class="images">
+                      <img src="//media.getsitecontrol.com/prod2/images/3130/a582af5305e3fe719d93fe8c10ad1210_157640964.svg" class="image" style="position: absolute; object-fit: contain; object-position: 50% 50%; left: 50%; transform: translateX(-50%) rotate(0deg); top: 32px; width: 368px; height: 214px;">
+                    </div>
+                    <div class="body">
+                        <div class="content no-fields">
+                            <h1 class="title">Thank you!</h1>
+                            <p class="description">We appreciate the feedback. Your opinion means the world to us.</p>
+                            <form class="" action="/">
+                            <div class="buttons">
+                                <button type="submit" class="button primary">Done</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

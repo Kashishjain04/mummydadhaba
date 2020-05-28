@@ -15,9 +15,9 @@ include("includes/header.php");
 </head>
 <?php
 // Check for Header Injections
-		/*function has_header_injection($str) {
+		function has_header_injection($str) {
 			return preg_match( "/[\r\n]/", $str );
-		}*/
+		}
 		
 		
 		if (isset($_POST['contact_submit'])) {
@@ -36,13 +36,13 @@ include("includes/header.php");
 				
 			}
 			
-			if (!$name || !$email || !$msg || !$phone) {
+			if (!$name || !$email || !$msg ) {
 				echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
 				exit;
 			}
 			
 			// Add the recipient email to a variable
-			$to	= "jainabhishek7204@yahoo.com";
+			$to	= "jainabhishek7204@yahoo.com";			
 			
 			// Create a subject
 			$subject = "$name sent a message via your contact form";
@@ -54,12 +54,12 @@ include("includes/header.php");
 			$message .= "Message:\r\n$msg";
 			
 			// If the subscribe checkbox was checked
-			if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
+			/*if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
 			
 				// Add a new line to the $message
 				$message .= "\r\n\r\nPlease add $email to the mailing list.\r\n";
 				
-			}
+			}*/
 		
 			//$message = wordwrap($message, 72); // Keep the message neat n' tidy
 		
@@ -73,22 +73,14 @@ include("includes/header.php");
 			
 			// Send the email!
 
-			if(mail($to, $subject, $message, $headers)){
-				echo "<h1>Sent</h1>";
+			if(mail($to, $subject, $message, $headers)){								
+			header("Location:thanks.php");
 			}
-			else{
-				echo "<h1>Not Sent</h1>";
-			}
-    ?>
-		<h5>Thanks for contacting Us!</h5>
-		<p>Please allow 24 hours for a response.</p>
-		<p><a href="/final" class="button block">&laquo; Go to Home Page</a></p>
-		
-		<?php
-			} else {
-        ?>
+
+		} else { 
+	?>
         
-        <body>
+    <body>
 	<div class="container-contact100">
 
 		<div class="wrap-contact100">
@@ -98,12 +90,12 @@ include("includes/header.php");
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
-					<input class="input100" type="text" name="name" placeholder="Full Name">
+					<input class="input100" type="text" name="name" placeholder="Full Name" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
-					<input class="input100" type="email" name="email" placeholder="E-mail">
+					<input class="input100" type="email" name="email" placeholder="E-mail" required>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -113,18 +105,17 @@ include("includes/header.php");
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<textarea class="input100" name="message" placeholder="Your Message" required></textarea>
 					<span class="focus-input100"></span>
-				</div>
+				</div>							
 
-				<div class="container-contact100-form-btn">
+				<div class="container-contact100-form-btn">				
 					<button name='contact_submit' class="contact100-form-btn">
 						<span>
 							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
 							Send
-						</span>
-                    </button>
-                
+						</span>						
+                    </button>					
 				</div>
 			</form>
 		</div>
@@ -133,7 +124,6 @@ include("includes/header.php");
 
 
 	<div id="dropDownSelect1"></div>
-
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/animsition/js/animsition.min.js"></script>
 	<script src="vendor/bootstrap/js/popper.js"></script>
