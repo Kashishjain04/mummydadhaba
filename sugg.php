@@ -37,7 +37,7 @@ include("includes/header.php");
 			}
 			
 			if (!$name || !$email || !$msg ) {
-				echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
+				//echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
 				exit;
 			}
 			
@@ -74,9 +74,14 @@ include("includes/header.php");
 			// Send the email!
 
 			if(mail($to, $subject, $message, $headers)){
-				ob_start();
-				header('Location:https://mummydadhaba3.herokuapp.com/thanks.php');
-				ob_end_flush();
+				?>
+				<script type="text/javascript">
+					window.location.href = 'thanks.php';
+				</script>
+				<?php
+				//ob_start();
+				//header('Location:https://mummydadhaba3.herokuapp.com/thanks.php');
+				//ob_end_flush();
 			}
 
 		} else { 
