@@ -32,7 +32,7 @@ include("includes/header.php");
                             <div class="field checkbox last valid">
                                 <div id="subscribe" class="input-check">
                                     <label>
-                                        <input required="" type="checkbox" name="subscribe" value="subscribe">
+                                        <input type="checkbox" name="subscribe" value="subscribe">
                                         <span>Subscribe to our Newsletter</span>
                                     </label>
                                 </div>

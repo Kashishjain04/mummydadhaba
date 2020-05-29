@@ -11,15 +11,16 @@
 		function has_header_injection($str) {
 			return preg_match( "/[\r\n]/", $str );
 		}
-			
+            //Date
+            date_default_timezone_set('Asia/Kolkata');
+            $date=getdate(date("U"));
 			// Assign trimmed form data to variables
 			// Note that the value within the $_POST array is looking for the HTML "name" attribute, i.e. name="email"
 			$name	= $_POST['name'];
             $email	= trim($_POST['email']);
             $phone  = trim($_POST['phone']);
             $msg	= $_POST['message']; 
-            $sub    = $_POST['subscribe'];
-		
+            $sub    = $_POST['subscribe'];            
 			// Check to see if $name or $email have header injections
 			if (has_header_injection($name) || has_header_injection($email)) {
 				
@@ -38,7 +39,8 @@
             $message .= "Email: $email\r\n";
             $message .= "Phone: $phone\r\n\r\n";
             $message .= "Message:\r\n   $msg\r\n\r\n";
-            $message .= "Subcription status: $sub";
+            $message .= "Subcription status: $sub\r\n\r\n";
+            $message .= "$date[weekday], $date[mday], $date[month], $date[hours]:$date[minutes]";
 			
 			// If the subscribe checkbox was checked
 			/*if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
