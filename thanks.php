@@ -29,7 +29,7 @@
 			}
 			
 			// Add the recipient email to a variable
-			$to	= "jainabhishek7204@yahoo.com";			
+			$to	= "jainabhishek7204@outlook.com";			
 			
 			// Create a subject
 			$subject = "$name sent a message via your contact form";
