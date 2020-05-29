@@ -1,5 +1,6 @@
 <?php
-
+$title="Suggestions";
+$icon="media/sugg.ico";
 include("includes/header.php");
 
 ?>
