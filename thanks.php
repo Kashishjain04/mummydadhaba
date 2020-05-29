@@ -1,7 +1,7 @@
 <?php
     $icon = "//media.getsitecontrol.com/prod2/images/3130/a582af5305e3fe719d93fe8c10ad1210_157640964.svg";
     $title = "Thank You!";
-    include("includes/header.php");
+    include("includes/header.php");s
 ?>
     <link rel="stylesheet" href="css/thanks.css">
     </head>
@@ -14,10 +14,11 @@
 			
 			// Assign trimmed form data to variables
 			// Note that the value within the $_POST array is looking for the HTML "name" attribute, i.e. name="email"
-			$name	= ($_POST['name']);
+			$name	= $_POST['name'];
             $email	= trim($_POST['email']);
             $phone  = trim($_POST['phone']);
-			$msg	= $_POST['message']; 
+            $msg	= $_POST['message']; 
+            $sub    = $_POST['subscribe'];
 		
 			// Check to see if $name or $email have header injections
 			if (has_header_injection($name) || has_header_injection($email)) {
@@ -36,7 +37,8 @@
 			$message .= "Name: $name\r\n";
             $message .= "Email: $email\r\n";
             $message .= "Phone: $phone\r\n\r\n";
-			$message .= "Message:\r\n   $msg";
+            $message .= "Message:\r\n   $msg\r\n\r\n";
+            $message .= "Subcription status: $sub";
 			
 			// If the subscribe checkbox was checked
 			/*if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
