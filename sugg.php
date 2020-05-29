@@ -73,9 +73,10 @@ include("includes/header.php");
 			
 			// Send the email!
 
-			if(mail($to, $subject, $message, $headers)){											
-			echo "<script type='text/javascript'> document.location = 'thanks.php'; </script>";
-
+			if(mail($to, $subject, $message, $headers)){
+				ob_start();
+				header('Location:thanks.php');
+				ob_end_flush();
 			}
 
 		} else { 
