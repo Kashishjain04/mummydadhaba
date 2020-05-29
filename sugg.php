@@ -13,85 +13,11 @@ include("includes/header.php");
 	<link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<?php
-// Check for Header Injections
-		function has_header_injection($str) {
-			return preg_match( "/[\r\n]/", $str );
-		}
-		
-		
-		if (isset($_POST['contact_submit'])) {
-			
-			// Assign trimmed form data to variables
-			// Note that the value within the $_POST array is looking for the HTML "name" attribute, i.e. name="email"
-			$name	= ($_POST['name']);
-            $email	= trim($_POST['email']);
-            $phone  = trim($_POST['phone']);
-			$msg	= $_POST['message']; // no need to trim message
-		
-			// Check to see if $name or $email have header injections
-			if (has_header_injection($name) || has_header_injection($email)) {
-				
-				die(); // If true, kill the script
-				
-			}
-			
-			if (!$name || !$email || !$msg ) {
-				//echo '<h4 class="error">All fields required.</h4><a href="contact.php" class="button block">Go back and try again</a>';
-				exit;
-			}
-			
-			// Add the recipient email to a variable
-			$to	= "jainabhishek7204@yahoo.com";			
-			
-			// Create a subject
-			$subject = "$name sent a message via your contact form";
-			
-			// Construct the message
-			$message .= "Name: $name\r\n";
-            $message .= "Email: $email\r\n";
-            $message .= "Phone: $phone\r\n\r\n";
-			$message .= "Message:\r\n$msg";
-			
-			// If the subscribe checkbox was checked
-			/*if (isset($_POST['subscribe']) && $_POST['subscribe'] == 'Subscribe' ) {
-			
-				// Add a new line to the $message
-				$message .= "\r\n\r\nPlease add $email to the mailing list.\r\n";
-				
-			}*/
-		
-			//$message = wordwrap($message, 72); // Keep the message neat n' tidy
-		
-			// Set the mail headers into a variable
-			$headers = "MIME-Version: 1.0\r\n";
-			$headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
-			$headers .= "From: " . $name . " <" . $email . ">\r\n";
-			$headers .= "X-Priority: 1\r\n";
-			$headers .= "X-MSMail-Priority: High\r\n\r\n";
-		
-			
-			// Send the email!
-
-			if(mail($to, $subject, $message, $headers)){
-				?>
-				<script type="text/javascript">
-					window.location.href = 'thanks.php';
-				</script>
-				<?php
-				//ob_start();
-				//header('Location:https://mummydadhaba3.herokuapp.com/thanks.php');
-				//ob_end_flush();
-			}
-
-		} else { 
-	?>
-        
     <body>
 	<div class="container-contact100">
 
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" method="POST" action="">
+			<form class="contact100-form validate-form" method="POST" action="thanks.php">
 				<span class="contact100-form-title">
 					Send Us A Message
 				</span>
@@ -142,8 +68,7 @@ include("includes/header.php");
 	<script src="js/main.js"></script>
 
 </body>
-<?php
-            };
+<?php            
             include("includes/footer.php");
 
 ?>
