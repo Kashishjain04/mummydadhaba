@@ -13,3 +13,4 @@
     <link rel="stylesheet" href="css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script data-ad-client="ca-pub-4358811063308681" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/50145bb3526570b6c1fb75d6e/f8d98b9c2a533a331758ffae0.js");</script>
