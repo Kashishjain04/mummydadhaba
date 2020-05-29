@@ -75,7 +75,7 @@ include("includes/header.php");
 
 			if(mail($to, $subject, $message, $headers)){
 				ob_start();
-				header('Location:thanks.php');
+				header('Location:https://mummydadhaba3.herokuapp.com/thanks.php');
 				ob_end_flush();
 			}
 
