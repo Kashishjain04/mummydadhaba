@@ -550,7 +550,78 @@
                     </ol>'
                 )
             )
-        )
+        ),
+        "Donuts2" => array(            
+            "name" => "Donut",            
+            "yield" => " 10-12 Donuts ",
+            "english" => array(
+                "image" => "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg",
+                "ingredients" => array(
+                    '<ul class="checkmark">
+                    <li>Maida - 1cup</li>
+                    <li>Powdered sugar - 3/4cup</li>
+                    <li>Baking Powder - 1tbsp</li>
+                    <li>Baking Soda - 1/2tbsp</li>
+                    <li>Molten Butter/Ghee/Oil - 1/4cup</li>
+                    <li>Pinch of salt</li>
+                    <li>Curd - 2tbsp</li>
+                    </ul>'
+                ),
+                "method" => array(                    
+                    '<span class="card-item-title">Preparation</span>',
+                    '<ol>
+                        <li>Mix well all the ingredients taken excluding curd.</li>
+                        <li>Add curd and make a dough.</li>
+                        <ul class="checkmark">
+                        <li>In case you want chocolate donuts add 1/2 tbsp of cocoa powder.</li>
+                        </ul>
+                        <li>The dough should be soft. In case your dough is too dry you can add water and if it is too loose & sticky add more maida.</li>
+                        <li>Now apply butter/ghee to it and cover it to rest for 1.5 hour at room temparature.</li>
+                        <li>After, 1.5 hour the dough har risen from inside, now kneed it again for a minute.</li>
+                        <li>Now, roll the dough of thickness almost double than the chapati.</li>
+                        <li>If you don\'t have a donut cutter, take two different size of rounds and cut to form a shape like donut.</li>
+                        <li>Now, let the donuts rest for 10-15 min before frying.</li>
+                        <li>Fry the donuts on medium flame till it risens perfectly.</li>
+                    <span class="card-item-title">Dressing</span>
+                    <p style="margin-left:20px;">You can decorate it with your choice- Nutella, chocolate syrup, ice-cream or Anything you like.</p>
+                        <li>Your fresh donuts are ready!</li>
+                    </ol>'
+                )
+            ),
+            "hindi" => array(
+                "image" => "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-donuts-2-1542639436.jpg?crop=1.00xw:0.892xh;0,0.0912xh&resize=1200:*",
+                "ingredients" => array(                    
+                    '<ul class="checkmark">',
+                    '<li>मैदा - 1cup</li>
+                    <li>पीसी चीनी - 3/4cup</li>
+                    <li>Baking Powder - 1tbsp</li>
+                    <li>Baking Soda - 1/2tbsp</li>
+                    <li>पिघला माखन/घी/तेल - 1/4cup</li>
+                    <li>चुटकी भर नमक</li>
+                    <li>दही - 2tbsp</li>
+                    </ul>'
+                ),
+                "method" => array(                    
+                    '<ol>
+                        <li>दही को छोड़ कर बाकी सारी सामग्री को अछी तरह मिला लें ।</li>
+                        <li>अब दही डालकर आटा गूँधें ।</li>
+                        <ul class="checkmark">
+                        <li>अगर आप chocolate डोनट्स बनाना चाहते हैं तो 1/2 बड़ा चमच कोको पाउडर डाल लें ।</li>
+                        </ul>
+                        <li>आटा थोड़ा नरम होना चाहिए। अगर आपका आटा ज़्यादा सूखा है तो उसमें पानी डाल लें, और अगर आटा जया ढीला और चिपचिपा है तो इसमें मैदा डाल लें ।</li>
+                        <li>अब, आटे पर माखन या घी लगाएँ और इसे ढककर 1.5 घंटे के लिए रख दें ।</li>
+                        <li>जब, आटा अंदर से फूल जाए, इसे थोड़ा सा और गूँध लें ।</li>      
+                        <li>अब, आटे को एक रोटी से दोगुनी मोटाई जितना बेल लें ।</li>
+                        <li>अगर आपके पास डोनट कटर नहि है, दो अलग size के गोल कटर ले लें, और डोनट के आकर में काट लें ।</li>
+                        <li>अब, इसने तलने से पहले 10-15 min तक रखें ।</li>
+                        <li>अब डोनट्स को धीमी आँच पर तलें जब तक अच्छे से उभर कर आ जाएँ ।</li>
+                    <span class="card-item-title">ड्रेसिंग</span>
+                    <p style="margin-left:20px;">आप अपने डोनट को इच्छानुसार सजा सकते हैं - Nutella, chocolate syrup, ice-cream या जो भी आपको पसंद हो ।</p>
+                    <li>आपका ताज़ा डोनट्स तैयार हैं !</li>
+                    </ol>'
+                )
+            )
+        ),
     )
 
 ?>

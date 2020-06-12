@@ -67,7 +67,11 @@
                 array(
                     "item" => "Donuts",
                     "image" => "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg"
-                )
+                ),
+                array(
+                    "item" => "Donuts2",
+                    "image" => "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg"
+                ),
             )
         ),
 
