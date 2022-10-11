@@ -19,8 +19,8 @@
         "Salads" => array(
             "name" => "Salads",
             "description" => "In this section you will find great 'n' healthy Salads",
-            "banner" => "https://feelgoodfoodie.net/wp-content/uploads/2019/02/Mediterranean-Chopped-Salad-5-500x500.jpg",
-            "background" => "https://x1hjmpsx5q-flywheel.netdna-ssl.com/wp-content/uploads/2019/12/SALADS_Hero-1-scaled.jpg",
+            "banner" => "https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "background" => "https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "icon" => "media/salad.ico",
             "id" => 2,
             "dish" => array(
@@ -67,7 +67,11 @@
                 array(
                     "item" => "Donuts",
                     "image" => "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg"
-                ),                
+                ),
+                array(
+                    "item" => "Donuts2",
+                    "image" => "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg"
+                ),
             )
         ),
 
